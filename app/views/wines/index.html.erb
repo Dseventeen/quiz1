@@ -1,1 +1,9 @@
-<h1>Welcome to the World of Wine</h1>
+<% @wines.each do |place| %>
+  <div>
+    <h1><%= wine.name %></h1><br />
+    <i><%= wine.year %></i><br />
+    <p><%= wine.producer %></p><br />
+  </div>
+
+  <hr />
+<% end %>
