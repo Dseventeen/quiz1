@@ -1,0 +1,8 @@
+<h1>Enter Your Wine Details</h1>
+<%= simple_form_for @wine do |f| %>
+  <%= f.input :name %>
+  <%= f.input :year %>
+  <%= f.input :producer %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>

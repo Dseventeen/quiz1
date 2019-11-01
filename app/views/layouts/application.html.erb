@@ -1,3 +1,21 @@
+<header class="row">
+  <div class="col-3">
+    <%= link_to root_path, class: 'logo' do %>
+    <div class="circle">
+      <br />
+      We love wine!
+      <br />
+    </div>
+    <% end %>
+  </div>
+  <div class="col-4 slogan">
+    An index of delicious wine.
+  </div>
+  <div class="col-5 links">
+    <%= link_to 'Contribute', new_wine_path %>
+  </div>
+</header>
+
 <!DOCTYPE html>
 <html>
   <head>
